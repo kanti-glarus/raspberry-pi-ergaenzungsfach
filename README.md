@@ -54,7 +54,7 @@ z.B. `ssh pi@192.168.23.123`
 - ssh (bereits installiert)
 - Remotedesktopverbindung (bereits installiert)
 
-## Verbindung
+## <a name="verbindung">Verbindung</a>
 
 - Remotedesktopverbindung (bereits installiert)
   - Computer: `<individual IP>`
@@ -73,16 +73,26 @@ z.B. `ssh pi@192.168.23.123`
   - Wähle `Add Workspace Folder`: `/home/pi/projects`
 
   
-## Basic Setup
+## Raspberry Pi starten
  
 **Komponenten**
 
-- Raspberry Pi 4B
-- Grove Pi+
+- `Raspberry Pi` 4B
+- `Grove Pi+`
 - Micro-SD-Karte 16 GB
 - Grove-LCD RGB Backlight v4.0
 - Grove Verbindungskabel
 - Stromkabel Raspberry Pi
+
+**Anschliessen**
+
+- SD-Karte in Halterung am `Raspberry Pi`
+- `Grove Pi+` auf `Raspberry Pi` stecken, Pins bündig an der Ecke ([Bild](https://files.seeedstudio.com/wiki/GrovePi_Plus/img/110060049%2010_02.jpg))
+- `LCD` mit dem Kabel mit einem `I2C`-Port (z.b. I2C-1) am `Grove Pi+` verbinden
+- Stromkabel mit dem USB-C-Anschluss vom `Raspberry Pi` verbinden
+
+Der `Raspberry Pi` startet nun und auf dem `LCD` wird nach einiger Zeit die aktuelle IP-Adresse angezeigt. Mit dieser IP-Adresse kann man sich nun [verbinden](#verbinden). 
+
 
 ## About this project
 
