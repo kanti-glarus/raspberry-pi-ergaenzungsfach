@@ -1,12 +1,13 @@
 # Raspberry Pi
 
-With this short instruction you can make your RaspberryPi ready for the development.
+Mit dieser kurzen Anleitung kannst du deinen RaspberryPi für die Entwicklung von Projekten bereit machen.
 
-It explains:
+Wir erklären:
 
-- How to setup your Notebook and your Raspberry Pi.
-- How to connect with the Raspberry Pi.
-- How to code on the Raspberry Pi.
+- Wie du dein Raspberry Pi vorbereitest
+- Wie du dein Notebook bereit machst
+- Wie du Notebook und Raspberry Pi verbinden kannst
+- Wie du auf dem Raspberry Pi programmieren kannst
 
 ## Zugänge
 
@@ -93,6 +94,13 @@ z.B. `ssh pi@192.168.23.123`
 
 Der `Raspberry Pi` startet nun und auf dem `LCD` wird nach einiger Zeit die aktuelle IP-Adresse angezeigt. Mit dieser IP-Adresse kann man sich nun [verbinden](#verbinden). 
 
+## Raspbian Image
+
+Auf dem Raspbery Pi läuft ein eigenes Betriebssystem, das `raspbian`.
+Dieses wurde von uns ein wenig angepasst, so dass zu Beginn gleich ein Programm gestartet wird, um die IP-Adresse auf einem Display auszugeben.
+Zudem haben wir global die Zugangsdaten angepasst und unsere Netzwerkeinstellungen vorprogrammiert.
+
+Du findest unser [Raspbian-Image](https://schulegl-my.sharepoint.com/:u:/g/personal/beat_temperli_schulegl_ch/ES0dSR_NYTlIm83zDJxQL9gBsoBolqgW_DHI9JP9Kk7n4g?e=uYRVDt) öffentlich zugänglich im Internet. Es ist ungefähr 16GB gross und hat keinen Platz hier im Repository. 
 
 ## About this project
 

@@ -3,3 +3,6 @@ raspbian-setup.img
 
 # IDE / Jetbrains
 .idea
+
+# OS
+.DS_Store
