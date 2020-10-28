@@ -94,7 +94,13 @@ z.B. `ssh pi@192.168.23.123`
 
 Der `Raspberry Pi` startet nun und auf dem `LCD` wird nach einiger Zeit die aktuelle IP-Adresse angezeigt. Mit dieser IP-Adresse kann man sich nun [verbinden](#verbinden). 
 
-## Raspbian Image
+## Grove Zubehör
+
+Im [Grove Pi+ Start Kit](https://www.reichelt.de/de/de/raspberry-pi-grovepi-starter-kit-rpi-grove-start-p191306.html) sind folgende Komponenten enthalten
+
+- [Grove Pi+ Board](components/grove-pi-plus-board.md)
+
+## <a name="raspbian">Raspbian Image</a>
 
 Auf dem Raspbery Pi läuft ein eigenes Betriebssystem, das `raspbian`.
 Dieses wurde von uns ein wenig angepasst, so dass zu Beginn gleich ein Programm gestartet wird, um die IP-Adresse auf einem Display auszugeben.
