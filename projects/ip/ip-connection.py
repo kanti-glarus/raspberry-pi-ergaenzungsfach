@@ -7,6 +7,7 @@ import time
 from datetime import datetime
 
 print('start:', datetime.now())
+wait = 3
 
 def get_ip():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -32,8 +33,8 @@ def call_for_ip():
     if ip != '127.0.0.1':
         return True
 
-    for i in range(0, 10):
-        grove_rgb_lcd.setText("IP: " + ip + "\n ... " + str(10-i))
+    for i in range(0, wait):
+        grove_rgb_lcd.setText("IP: " + ip + "\n ... " + str(wait-i))
         time.sleep(1)
         print('sleep', i)
 
