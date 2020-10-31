@@ -40,6 +40,7 @@ Wie wird das Raspberry Projekt vorbereitet?
 1. Grove Pi installieren:
     1. `$ sudo curl -kL dexterindustries.com/update_grovepi | bash`
     1. `$ sudo reboot`
+    1. `$ cd Dexter/GrovePi/Firmware; bash ./firmware_update.sh`
     1. `$ cd Dexter/GrovePi/Script; sudo bash ./install.sh`
     1. `$ cd Dexter/GrovePi/Script; bash ./update_grovepi.sh`
 1. Nach Bedarf .alias-File anpassen:
