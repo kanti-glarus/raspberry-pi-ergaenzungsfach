@@ -99,6 +99,7 @@ Der `Raspberry Pi` startet nun und auf dem `LCD` wird nach einiger Zeit die aktu
 Im [Grove Pi+ Start Kit](https://www.reichelt.de/de/de/raspberry-pi-grovepi-starter-kit-rpi-grove-start-p191306.html) sind folgende Komponenten enthalten
 
 - [Grove Pi+ Board](components/grove-pi-plus-board.md)
+- [Grove Temperature & Humidity Sensor](components/grove-dht.md)
 
 ## <a name="raspbian">Raspbian Image</a>
 
@@ -106,10 +107,13 @@ Auf dem Raspbery Pi läuft ein eigenes Betriebssystem, das `raspbian`.
 Dieses wurde von uns ein wenig angepasst, so dass zu Beginn gleich ein Programm gestartet wird, um die IP-Adresse auf einem Display auszugeben.
 Zudem haben wir global die Zugangsdaten angepasst und unsere Netzwerkeinstellungen vorprogrammiert.
 
-Du findest unser [Raspbian-Image](https://schulegl-my.sharepoint.com/:u:/g/personal/beat_temperli_schulegl_ch/ES0dSR_NYTlIm83zDJxQL9gBsoBolqgW_DHI9JP9Kk7n4g?e=uYRVDt) öffentlich zugänglich im Internet. Es ist ungefähr 16GB gross und hat keinen Platz hier im Repository. 
+Du findest unser [Raspbian-Image][1] öffentlich zugänglich im Internet. Es ist ungefähr 16GB gross und hat keinen Platz hier im Repository. 
 
 ## About this project
 
 This project is an educational project at the [Kantonsschule Glarus](https://www.kanti-glarus.ch).
 The project is initiated by [btemperli](https://github.com/btemperli). It takes place in the last year of the Computer Science / Informatik at the "Ergänzungsfach".
-It is based on Raspberry Pi 4 & Grove Pi plus. 
+It is based on Raspberry Pi 4 & Grove Pi plus.
+
+
+[1]: https://schulegl-my.sharepoint.com/:u:/g/personal/beat_temperli_schulegl_ch/ESr2nS3PJehMvK8htM4yCMABNG9tpDiTDhiIJCeJ87uXVw?e=hQKhzT 
