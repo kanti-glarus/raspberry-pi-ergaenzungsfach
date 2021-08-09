@@ -77,4 +77,4 @@ Wie wird das Raspberry Projekt vorbereitet?
 
 1. Boot-Disk finden: `$ diskutil list`
 1. Disk unmounten: `$ diskutil unmountDisk /dev/disk2`
-1. Image auf Disk laden: `$ sudo dd if=/pfad/von/image.img of=/dev/rdisk2 bs=1M`
+1. Image auf Disk laden: `$ sudo dd if=/pfad/von/image.img of=/dev/rdisk2 bs=1m`
