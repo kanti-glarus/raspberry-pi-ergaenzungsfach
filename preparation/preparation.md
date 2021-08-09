@@ -40,7 +40,7 @@ Wie wird das Raspberry Projekt vorbereitet?
 1. Grove Pi installieren:
     1. `$ sudo curl -kL dexterindustries.com/update_grovepi | bash`
     1. `$ sudo reboot`
-    1. `$ cd Dexter/GrovePi/Firmware; bash ./firmware_update.sh`
+    1. `$ cd Dexter/GrovePi/Firmware; bash ./firmware_update.sh` (hint: evtl `sudo ./firmware_update.sh`)
     1. `$ cd Dexter/GrovePi/Script; sudo bash ./install.sh`
     1. `$ cd Dexter/GrovePi/Script; bash ./update_grovepi.sh`
 1. Nach Bedarf .alias-File anpassen:
@@ -77,4 +77,4 @@ Wie wird das Raspberry Projekt vorbereitet?
 
 1. Boot-Disk finden: `$ diskutil list`
 1. Disk unmounten: `$ diskutil unmountDisk /dev/disk2`
-1. Image auf Disk laden: `$ sudo dd if=/pfad/von/image.img of=/dev/disk2`
+1. Image auf Disk laden: `$ sudo dd if=/pfad/von/image.img of=/dev/rdisk2 bs=1M`

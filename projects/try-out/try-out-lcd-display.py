@@ -23,5 +23,5 @@ for c in range(0, 255):
     setRGB(255-c, 255-c, 255-c)
     time.sleep(0.01)
 
-setRGB(0,255,0)
+setRGB(0, 255, 0)
 setText("Good Bye...")

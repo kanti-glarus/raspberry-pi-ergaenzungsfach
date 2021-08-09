@@ -6,7 +6,7 @@ import math
 grovepi.set_bus('RPI_1')
 
 print('running on grovepi', grovepi.version())
-grove_rgb_lcd.setText('Meteostation v3')
+grove_rgb_lcd.setText('Meteostation')
 grove_rgb_lcd.setRGB(255, 128, 0)
 
 pin = 4
@@ -19,7 +19,7 @@ while running:
 
         if not math.isnan(temp):
             print('Temperatur:', temp, '°C')
-            grove_rgb_lcd.setText('Meteostation v3\n' + 'inside: ' + str(temp) + 'C')
+            grove_rgb_lcd.setText('Meteostation\n' + 'inside: ' + str(temp) + 'C')
         else:
             print('no input')
         time.sleep(2)

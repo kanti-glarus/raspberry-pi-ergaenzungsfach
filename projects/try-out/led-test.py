@@ -10,7 +10,6 @@ print(grovepi.version())
 
 grovepi.pinMode(ledPort, "OUTPUT")
 
-
 while run:
     try:
         grovepi.digitalWrite(ledPort, 1)

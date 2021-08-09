@@ -1,12 +1,14 @@
 import sys
 import platform
 
+
 # show informations about the current python version.
-def showPython():
+def show_python():
     print("python", sys.version)
 
+
 # show informations about the platform.
-def showPlatform():
+def show_platform():
     print("platform.system:", platform.system())
     print("current platform:", platform.platform())
     print("platform machine:", platform.machine())
@@ -15,7 +17,7 @@ def showPlatform():
 
 # Call the functions
 print('informations about your current python & platform:')
-print()
-showPython()
-print()
-showPlatform()
+print('')
+show_python()
+print('')
+show_platform()

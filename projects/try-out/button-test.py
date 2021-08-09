@@ -10,7 +10,6 @@ print(grovepi.version())
 
 grovepi.pinMode(buttonPort, "INPUT")
 
-
 while run:
     try:
         digitalInput = grovepi.digitalRead(buttonPort)

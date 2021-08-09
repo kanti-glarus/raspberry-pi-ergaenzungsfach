@@ -9,6 +9,7 @@ from datetime import datetime
 print('start:', datetime.now())
 wait = 3
 
+
 def get_ip():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     try:
@@ -20,6 +21,7 @@ def get_ip():
     finally:
         s.close()
     return IP
+
 
 def call_for_ip():
     # Output current ip
@@ -42,11 +44,8 @@ def call_for_ip():
 
     return False
 
+
 ip_check = False
 
 while not ip_check:
     ip_check = call_for_ip()
-
-
-
-    

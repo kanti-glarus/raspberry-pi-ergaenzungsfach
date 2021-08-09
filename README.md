@@ -89,7 +89,7 @@ z.B. `ssh pi@192.168.23.123`
 
 - SD-Karte in Halterung am `Raspberry Pi`
 - `Grove Pi+` auf `Raspberry Pi` stecken, Pins bündig an der Ecke ([Bild](https://files.seeedstudio.com/wiki/GrovePi_Plus/img/110060049%2010_02.jpg))
-- `LCD` mit dem Kabel mit einem `I2C`-Port (z.b. I2C-1) am `Grove Pi+` verbinden
+- `LCD` mit dem Kabel mit einem `I2C`-Port (z.b. `I2C-1`) am `Grove Pi+` verbinden
 - Stromkabel mit dem USB-C-Anschluss vom `Raspberry Pi` verbinden
 
 Der `Raspberry Pi` startet nun und auf dem `LCD` wird nach einiger Zeit die aktuelle IP-Adresse angezeigt. Mit dieser IP-Adresse kann man sich nun [verbinden](#verbinden). 
