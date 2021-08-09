@@ -71,7 +71,7 @@ Wie wird das Raspberry Projekt vorbereitet?
 1. Image erstellen:
     1. `$ diskutil list`
     1. Boot-Disk wird in etwa so ausschauen: `/dev/disk2`
-    1. Image erstellen: `$ sudo dd if=/dev/disk2 of=/pfad/von/image.img`
+    1. Image erstellen: `$ sudo dd if=/dev/rdisk2 of=/pfad/von/image.img`
     
 ## Image verteilen
 
