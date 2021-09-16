@@ -116,4 +116,4 @@ The project is initiated by [btemperli](https://github.com/btemperli). It takes 
 It is based on Raspberry Pi 4 & Grove Pi plus.
 
 
-[1]: https://schulegl-my.sharepoint.com/:u:/g/personal/beat_temperli_schulegl_ch/ESr2nS3PJehMvK8htM4yCMABNG9tpDiTDhiIJCeJ87uXVw?e=hQKhzT 
+[1]: https://schulegl-my.sharepoint.com/:u:/g/personal/beat_temperli_schulegl_ch/EXMMB1YLhwVBsN4EKC7XzTcB6zeBIgo0aHbOnyHH79e4ZQ?e=i4Xhcs
