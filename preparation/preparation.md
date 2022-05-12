@@ -7,7 +7,7 @@ Wie wird das Raspberry Projekt vorbereitet?
 1. Raspberry Pi OS Image auf SD-Karte laden, siehe [Software](https://www.raspberrypi.com/software/)
 2. User definieren:
    1. `$ cd /Volumes/boot; touch userconf`
-   2. Passwort generieren: `echo 'mypassword' | openssl passwd -stdin`
+   2. Passwort generieren: `echo 'mypassword' | openssl passwd -6 -stdin`
    3. Inhalt abfüllen: `username:output-of-mypassword`
 3. SSH aktivieren: leere `ssh`-Datei auf die Karte ins `root`-Verzeichnis laden.
     1. `$ cd /Volumes/boot; touch ssh`
